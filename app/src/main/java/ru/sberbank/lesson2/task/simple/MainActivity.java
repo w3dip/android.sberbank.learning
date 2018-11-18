@@ -18,7 +18,7 @@ public class MainActivity extends Activity {
         if (uri != null) {
             text.setText(uri.toString());
         } else {
-            text.setText("No URI");
+            text.setText(R.string.empty_uri);
         }
     }
 }

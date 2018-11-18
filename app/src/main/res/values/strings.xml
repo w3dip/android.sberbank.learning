@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">lesson2.task.simple</string>
+    <string name="empty_uri">No URI</string>
 </resources>

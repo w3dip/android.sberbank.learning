@@ -14,7 +14,6 @@ public class BrowserActivity extends Activity {
         setContentView(R.layout.activity_browser);
 
         WebView uriWebView = findViewById(R.id.uriWebView);
-        uriWebView.getSettings().setJavaScriptEnabled(true);
         uriWebView.setWebViewClient(new WebViewClient());
         Uri uri = getIntent().getData();
         if (uri != null) {
